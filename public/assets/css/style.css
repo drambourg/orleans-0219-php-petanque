@@ -657,12 +657,22 @@ p {
     padding-top: 20px;
 }
 
+.title-wrapper-big{
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50vh;
+    margin: auto;
+    font-size: 5vw;
+}
+
 .title-wrapper{
     color: white;
     position: absolute;
     left: 0;
     right: 0;
-    top: 15%;
+    top: 100px;
     margin: auto;
     font-size: 5vw;
 }
@@ -675,6 +685,8 @@ p {
 .img-wrap-header
 {
     width: 100%;
+    min-height: 250px;
+    object-fit: cover;
 }
 
 .img-wrap-big-header
@@ -978,7 +990,8 @@ p {
 }
 
 .row_article{
-    margin: 80px;
+    margin: 80px 10px;
+
 }
 
 .card-header_article, .card-footer_article{

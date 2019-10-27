@@ -88,9 +88,9 @@
             </div>
             <div class="row text-center">
                 {% for member in members %}
-                    <div class="col-xl-4">
+                    <div class="col-md-8 col-xl-4">
                         <div class="portrait_wrapper pt-3">
-                            <div class="portrait float-left pr-4">
+                            <div class="portrait float-md-left pr-4">
                                 <img src=/{{ (member.picture is null) ? 'assets/images/members/placeholder.jpg' : member.picture }}
                                      class="rounded-circle home_members_picture sepia_img_cover" alt="Cinque Terre">
                             </div>
